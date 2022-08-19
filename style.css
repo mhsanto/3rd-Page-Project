@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.full_page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.front-title h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.front-title h2::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 36px;
+    background-color: orange;
+    bottom: -13px;
+    left: 50%;
+    margin-left: -18px;
+}
+
+.title-sec {
+    margin: 3rem 0;
+}
+
+
+.main-photo1 {
+    background-position: center;
+    background-size: cover;
+    height: 65vh;
+    position: relative;
+    margin: 0 2rem;
+}
+
+.main-photo1::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .3);
+}
+
+#bg-img .main-photo1 {
+    background: url(https://cdn.shopify.com/s/files/1/0552/1306/4365/files/DSC06304_1296x.jpg?v=1639412999);
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    margin: 1rem 2rem;
+}
+
+.main-photo1 .main-photo-content {
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 2rem;
+    top: 50%;
+}
+
+.big-title h3 {
+    font-weight: bolder;
+    font-size: 1.438rem;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 2rem;
+    z-index: 1;
+}
+
+.big-title h3::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 36px;
+    background-color: orange;
+    bottom: -13px;
+    left: 1.1rem;
+    margin-left: -18px;
+}
+
+.main-photo-content .para {
+    position: relative;
+    font-size: .9rem;
+    width: 60%;
+    font-weight: .8rem;
+    z-index: 1;
+    line-height: 1.8rem;
+
+}
+
+#bg-img .big-title h3 {
+    text-transform: capitalize;
+}
+
+/* end part 1 */
+ img{
+   max-width: 100%;
+   height: auto;
+   object-fit: cover;
+  
+}
+
+#screws-wall {
+    margin: 3rem 0;
+}
+
+.grid-items {
+    display: flex;
+    padding: 1rem 1rem;
+    flex-shrink: 100%;
+    gap: 1rem;
+    margin: 1rem 0;
+    justify-content: center;
+
+}
+
+.left-photo {
+    max-width: 99%;
+    max-height: 99%;
+  
+}
+
+.right-content {
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 0 1rem;
+}
+
+.right-content .front-title h2::after {
+    height: 4px;
+}
+
+.right-content .front-title h2 {
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.right-content .para {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    position: relative;
+    font-weight: .8rem;
+    z-index: 1;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+
+#wall-plugs .learn-more {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#wall-plugs .learn-more a {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: black;
+    padding: .9rem 2rem;
+    color: white
+}
+
+/* part 2 ends */
+/* funfact---- */
+
+
+#bg-img2 .main-photo1 {
+    background: url(https://cdn.shopify.com/s/files/1/0552/1306/4365/files/DSC07670.jpg?v=1639412965);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    margin: 0 1rem;
+}
+
+.main-photo1 .main-photo-content2 {
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 2rem;
+    top: 40%;
+}
+
+#bg-img2 .main-photo1 h3 {
+    text-transform: capitalize;
+}
+
+#bg-img2 .main-photo1 .para {
+    position: relative;
+    z-index: 1;
+    width: 27rem;
+    line-height: 1.9rem;
+}
+
+/* ends */
+#brackets .grid-items2 {
+  display: flex;
+  justify-content: center;
+}
+
+#brackets .bracket-left {
+    padding: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #F0F0F0;
+    padding: 0 1rem;
+
+}
+#brackets {
+    padding: 1rem;
+}
+
+#brackets .bracket-right {
+    display: flex;
+    padding: 1rem 1rem;
+    gap: 1rem;
+    margin: 1rem 1rem;
+    justify-content: center;
+}
+#brackets .bracket-right .brackets  {
+    width: 100%;
+}
+
+#brackets .bracket-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    height: auto;
+}
+
+#brackets .bracket-left .front-title h2 {
+    text-transform: capitalize;
+    padding-top: 1.8rem;
+    margin-bottom: 0;
+}
+
+#brackets .front-title h2 {
+    margin-bottom: 4rem;
+}
+
+
+#brackets .para {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    font-size: .9rem;
+    line-height: 1.8rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+.left-bracket{
+    margin: 0 auto;
+    padding: 0 2rem;
+    background-color: #F0F0F0;
+}
+#brackets .flex-items {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ column-gap: 2rem;
+  margin-top: 2rem;
+}
+#brackets .flex-items .para {
+    padding: 0 1.5rem;
+}
+
+#brackets .grid-items3 .bracket1 {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:768px) {
+    .grid-items {
+        display: block;
+    }
+    #bg-img .main-photo1 {
+        margin: .5rem .1rem;
+    }
+    .main-photo1 .main-photo-content {
+        color: white;
+        left:1rem;
+        top:40%;
+    }
+    .main-photo-content .para {
+        width: 80%;
+    
+    }
+    .right-content .para {
+        width: 90%;
+        padding-bottom: 2rem;
+    }.right-content .front-title h2 {
+      padding-top: 2rem;
+    
+    }
+    #wall-plugs .learn-more {
+        text-align: center;
+        margin: 2rem 0;
+        padding-bottom: 2rem;
+    }
+    /* fun fact----- */
+    #bg-img2 .main-photo1 {
+        height: 80vh;
+        margin: 0 1rem;
+    }
+    .main-photo1 .main-photo-content2 {
+        color: white;
+        left: 1rem;
+        top: 35%;
+    }
+    #bg-img2 .main-photo1 .para {
+        position: relative;
+        z-index: 1;
+        width: 90%;
+        line-height: 1.9rem;
+    }
+    #brackets .grid-items2 {
+        display:block;
+      }
+      #brackets .flex-items {
+        display: grid;
+ grid-template-columns: 1fr;}
+ .left-bracket{
+    margin: 0 auto;
+    padding: 0 2rem;
+    background-color: #F0F0F0;
+    margin-bottom: 1rem;
+}
+        
+}
